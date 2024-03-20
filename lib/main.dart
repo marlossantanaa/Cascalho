@@ -16,13 +16,10 @@ class MyApp extends StatelessWidget {
       debugShowMaterialGrid: true,
       title: 'Quiz',
       theme: ThemeData(
-
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.amber),
+        colorScheme: ColorScheme.fromSeed(seedColor: Colors.red),
         useMaterial3: true,
       ),
       home: const App(),
     );
-
   }
 }
-
